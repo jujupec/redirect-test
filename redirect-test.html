@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Test de redirection</title>
+		<script>
+			setTimeout(() => {
+				window.location.href =
+					'https://example.com/callback?token=test123&state=abc123';
+			}, 1000); // Redirige après 1 seconde
+		</script>
+	</head>
+	<body>
+		<h1>Redirection en cours...</h1>
+		<p>Vous serez redirigé dans quelques secondes...</p>
+	</body>
+</html>
